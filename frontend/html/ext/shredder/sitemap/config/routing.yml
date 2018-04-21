@@ -1,0 +1,9 @@
+shredder_sitemap_controller:
+    pattern: /sitemap.xml
+    defaults: { _controller: shredder.sitemap.controller:display_sitemap }
+
+shredder_sitemap_controller_file:
+    pattern: /sitemap-{seqno}.xml
+    defaults: { _controller: shredder.sitemap.controller:display_sitemap_seqno_file: seqno }
+    requirements:
+        seqno: \d+

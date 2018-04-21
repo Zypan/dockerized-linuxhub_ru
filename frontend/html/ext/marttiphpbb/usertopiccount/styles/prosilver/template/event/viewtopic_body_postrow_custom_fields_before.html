@@ -1,0 +1,10 @@
+<dd class="profile-topics usertopiccount-hidden">
+	<strong>{L_TOPICS}{L_COLON}</strong>
+	<!-- IF postrow.U_USERTOPICCOUNT_SEARCH --><a href="{postrow.U_USERTOPICCOUNT_SEARCH}"><!-- ENDIF -->
+		{postrow.USERTOPICCOUNT}
+	<!-- IF postrow.U_USERTOPICCOUNT_SEARCH --></a><!-- ENDIF -->
+</dd>
+<!-- IF not $USERTOPICCOUNT_JAVASCRIPT_INSERTED -->
+	<!-- INCLUDEJS @marttiphpbb_usertopiccount/viewtopic.js -->
+	<!-- $USERTOPICCOUNT_JAVASCRIPT_INSERTED = 1 -->
+<!-- ENDIF -->

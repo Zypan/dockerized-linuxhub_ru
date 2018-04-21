@@ -1,0 +1,9 @@
+services:
+    designermix.yandexmetrika.listener:
+        class: designermix\yandexmetrika\event\listener
+        arguments:
+            - @config
+            - @template
+            - @user
+        tags:
+            - { name: event.listener }

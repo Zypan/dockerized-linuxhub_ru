@@ -1,0 +1,31 @@
+{
+	"name": "shredder/seo_topic_url",
+	"type": "phpbb-extension",
+	"description": "Remove forum id from topic URLs or change default Canonical URL for phpBB 3.1",
+	"homepage": "http://www.phpbb-work.ru/",
+	"keywords": ["phpbb-work", "extension", "SEO", "Topic", "Canonical", "URL"],
+	"version": "1.0.10",
+	"time": "2015-01-15",
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Shredder",
+			"homepage": "http://www.phpbb-work.ru/",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "SEO Topic & Canonical URL",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.6"
+		},
+		"version-check": {
+			"host": "www.phpbb-work.ru",
+			"directory": "/mods",
+			"filename": "seo_topic_url.json"
+		}
+	}
+}

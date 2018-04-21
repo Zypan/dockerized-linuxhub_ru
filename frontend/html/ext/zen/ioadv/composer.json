@@ -1,0 +1,25 @@
+{
+    "name": "zen/ioadv",
+    "type": "phpbb-extension",
+    "description": "A phpBB 3.1 extension that adds IO_adv_code to footer of the page.",
+    "homepage": "http://linuxhub.ru/",
+    "version": "0.0.2",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Dmitry Poltavchenko (ZEN)",
+            "homepage": "http://linuxhub.ru/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "display-name": "Intobservatory ADV code",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.0-RC3,<3.2.*@dev"
+        }
+    }
+}

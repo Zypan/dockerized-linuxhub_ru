@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  frontend:
+    container_name: linuxhub_frontend
+    build: ./frontend
+    ports:
+      - "80:80"
+    links:
+      - database
+  database:
+    container_name: linuxhub_database
+    build: ./database
+    environment:
+      - MYSQL_ROOT_PASSWORD=toor
+      - MYSQL_DATABASE=linuxhub_ru
+    volumes:
+      - ./volumes/mysql:/var/lib/mysql

@@ -1,0 +1,5 @@
+services:
+    matu58.onlinestatus.listener:
+        class: matu58\onlinestatus\event\listener
+        tags:
+            - { name: event.listener }

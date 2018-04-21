@@ -1,0 +1,38 @@
+{
+    "name": "hifikabin/navbarsearch",
+    "type": "phpbb-extension",
+    "description": "Adds NavBar Search",
+    "homepage": "http://phpbb.hifikabin.me.uk",
+    "version": "1.0.1",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "James Newcombe",
+            "username": "HiFiKabin",
+            "email": "webmaster@hifikabin.me.uk",
+            "homepage": "http://phpbb.hifikabin.me.uk",
+            "role": "Developer"
+        },
+        {
+            "name": "David Wood",
+            "username": "david63",
+            "email": "david@webworld.xyz",
+            "homepage": "http://webworld.xyz",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "NavBar Search",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.x"
+        },
+        "version-check": {
+            "host": "www.phpbb.com",
+            "directory": "/customise/db/extension/navbar_search",
+            "filename": "version_check"
+        }
+    }
+}

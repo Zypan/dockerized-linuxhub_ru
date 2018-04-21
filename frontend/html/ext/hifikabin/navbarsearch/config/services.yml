@@ -1,0 +1,7 @@
+services:
+    hifikabin.navbarsearch.listener:
+        class: hifikabin\navbarsearch\event\listener
+        arguments:
+            - @template
+        tags:
+            - { name: event.listener }

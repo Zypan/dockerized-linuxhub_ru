@@ -1,0 +1,28 @@
+{
+	"name": "designermix/yandexmetrika",
+	"type": "phpbb-extension",
+	"description": "That extension insert Yandex Metrica code in every page of your forum. You can manage it at ACP > GENERAL > Board configuration > Board settings > Yandex Metrika",
+	"homepage": "https://dmyt.ru/forum/viewtopic.php?f=35&t=518",
+	"version": "0.0.1",
+	"time": "2015-01-09",
+	"keywords": ["phpbb", "extension", "metrika", "yandex", "yandex metrika"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Michael",
+			"homepage": "https://dmyt.ru/forum/",
+			"email": "DesignerMix@mail.ru",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+
+	"extra": {
+		"display-name": "Yandex Metrika",
+		"soft-require": {
+			"phpbb/phpbb": "3.1.*"
+		}
+	}
+}

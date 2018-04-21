@@ -1,0 +1,14 @@
+slickpanel_home:
+    path: /slickpanel
+    defaults: { _controller: slickthemes.slickpanel.controller:full }
+
+slickpanel_page:
+    path: /slickpanel/page
+    defaults: { _controller: slickthemes.slickpanel.controller:page }
+
+slickpanel_userconfig:
+    pattern: /slickpanel/userconfig
+    defaults: { _controller: slickthemes.slickpanel.controller.userconfig:manage }
+
+st_home:
+  pattern: ../

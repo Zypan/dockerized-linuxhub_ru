@@ -1,0 +1,30 @@
+{
+    "name": "bb3mobi/seodesc",
+    "type": "phpbb-extension",
+    "description": "SEO Meta description. Index cat, viewforum desc and viewtopic text",
+    "homepage": "http://phpbbguru.net",
+    "version": "1.0.0",
+    "time": "2015-01-11",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Anvar",
+            "homepage": "http://bb3.mobi",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Seo Meta Description",
+        "soft-require": {
+            "phpbb/phpbb": "3.1.*@dev"
+        },
+        "version-check": {
+            "host": "www.phpbb.com",
+            "directory": "/customise/db/extension/seo_meta_description",
+            "filename": "version_check"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+services:
+    shredder.seo_topic_url.listener:
+        class: shredder\seo_topic_url\event\listener
+        arguments:
+            - @config
+            - @dbal.conn
+            - @template
+            - @ext.manager
+            - @user
+            - %core.php_ext%
+        tags:
+            - { name: event.listener }

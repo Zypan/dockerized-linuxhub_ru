@@ -1,0 +1,38 @@
+{
+    "name": "matu58/onlinestatus",
+    "type": "phpbb-extension",
+    "description": "This extension will add the current online status of the user on profile.",
+    "homepage": "http://www.matiaslauriti.com.ar",
+    "version": "1.0.4",
+    "time": "2015-02-01",
+    "keywords": [
+        "phpbb",
+        "extension",
+        "status",
+        "online",
+        "offline"
+    ],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Matias Lauriti",
+            "homepage": "http://www.matiaslauriti.com.ar",
+            "email": "lauriti_51@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Online Status",
+        "soft-require": {
+            "phpbb/phpbb": "3.1.*"
+        },
+        "version-check": {
+            "host": "www.phpbb.com",
+            "directory": "/customise/db/extension/online_status",
+            "filename": "version_check"
+        }
+    }
+}
